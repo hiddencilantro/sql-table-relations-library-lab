@@ -1,0 +1,6 @@
+INSERT INTO series VALUES (1, 'Harry Potter', 1, 1), (2, 'Lord of the Rings', 2, 2);
+INSERT INTO subgenres VALUEs (1, 'Adventure'), (2, 'Fantasy');
+INSERT INTO authors VALUES (1, 'J. K. Rowling'), (2, 'J. R. R. Tolkien');
+INSERT INTO books VALUES (1, 'Chamber of Secrets', 1998, 1), (2, 'Prisoner of Azkaban', 1999, 1), (3, 'Goblet of Fire', 2000, 1), (4, 'The Fellowship of the Ring', 1954, 2), (5, 'The Two Towers', 1954, 2), (6, 'The Return of the King', 1955, 2);
+INSERT INTO characters VALUES (1, 'Harry Potter', 'Expecto Patronum', 'human', 1), (2, 'Hermione Granger', 'Wingardium Leviosa', 'human', 1), (3, 'Dobby', 'Bad Dobby!', 'elf', 1), (4, 'Hedwig', 'Hoot', 'owl', 1), (5, 'Frodo Baggins', 'I wish the ring had never come to me', 'hobbit', 2), (6, 'Gandalf', 'You shall not pass!', 'wizard', 2), (7, 'Gollum', 'My precious', 'hobbit', 2), (8, 'Legolas', 'And you have my bow', 'elf', 2);
+INSERT INTO character_books VALUES (1, 1, 1), (2, 1, 2), (3, 1, 3), (4, 2, 1), (5, 2, 2), (6, 2, 3), (7, 3, 3), (8, 4, 1), (9, 5, 4), (10, 5, 5), (11, 5, 6), (12, 6, 4), (13, 6, 5), (14, 6, 6), (15, 7, 4), (16, 8, 5);
